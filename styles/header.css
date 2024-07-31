@@ -32,7 +32,7 @@
 
 .cabecalho-lista{
     display: none;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-pretoclaro);
     position: absolute;
     top: 100%;
     width: 50vm;
@@ -48,7 +48,7 @@
 
 .cabecalho-lista-titulo {
     padding: 1em;
-    color: var(--preto);
+    color: var(--corsecundaria);
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -64,7 +64,7 @@
 
 .menu__lista-item {
     background: var(--cor-principal);
-    color: var(--laranja);
+    color: var(--azulescuro);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -102,7 +102,7 @@
     .opcoes__item{
         padding: 0 2em;
         text-transform: uppercase;
-        color: var(--branco);
+        color: var(--preto);
     }
 
     .opcoes__link{
