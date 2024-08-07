@@ -7,21 +7,73 @@
     <title>Página principal</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com&quot; crossorigin">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&quot" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-       <link rel="stylesheet" href="styles/apresentacao.css">
+    <link rel="stylesheet" href="styles/apresentacao.css">
 </head>
 
 <body>
     <header class="cabecalho">
-        <img class="cabecalho-imagem" src="img/alurastart_logo.png" alt="logo AluraStart">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu  container__imagem"> </span>
+            </label>
 
-        <ul class="cabecalho-lista">
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-titulo"> Categorias </li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Serviços</a></li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Projetos</a></li>
+                <li class="cabecalho-lista-item"><a href="#" class="menu__lista-item"> Contato </a></li>
+            </ul>
+
+            <img class="cabecalho-imagem  container__imagem" src="./img/alurastart_logo.png" alt="logo AluraStart">
+            <h1 class="container-titulo"> NOME da Empresa </h1>
+        </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item"> CATEGORIAS REVER </li>
+            </label>
+
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 1 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 2 </a>
+                </li>
+                <li class="cabecalho-lista-item">
+                    <a href="#" class="menu__lista-item">Opção 3 </a>
+                </li>
+
+            </ul>
+
             <li class="cabecalho-lista-item">Escola</li>
             <li class="cabecalho-lista-item">Estudantes</li>
+
         </ul>
+
+        <div class="container">
+            <a href="#"> <img class="cabecalho-imagem cabecalho_favorito" src="./img/favoritos.svg" alt=""> </a>
+            <a href="#">  class="container_link" >
+
+                <img src="img/compras.svg" alt="">
+                <p
+            </a>
+            <a href="#"> 
+                <img src="img/usuario.svg" alt="">
+                <p></p>
+            </a>
+        </div>
+
+
+        
     </header>
 
     <section class="escola">
@@ -32,29 +84,25 @@
             <p class="escola-texto-dois">A turma mais estudiosa e famosa é a segunda série, turma E. Nós somos super
                 unidos e a turma favorita por todos os professores que nos ajudam!</p>
         </div>
-        <img src="img/school bus-bro.svg" alt="imagem da escola" class="escola-imagem">
+        <img src="img/Online learning-amico.svg" alt="imagem da escola" class="escola-imagem">
 
     </section>
 
     <section class="estudante">
-        <h2 class="estudante-titulo">Quem sou</h2>
-        <div class="estudante-div">
-            <img src="img/higor.jpeg" alt="foto do Higor" class="estudante-imagem">
-            <h3 class="estudante-nome"> Higor Henrique Lima Cunha </h3>
-            <a href="https://github.com/higorrr7/segundo-repositorio.git">   <img src="img/github.png" alt="icone do github" class="estudante-icone">   </a>
-            <a href="https://instagram.com/ohigaozk">   <img src="img/instagram.png" alt="icone do instagram" class="estudante-icone">  </a>
-            <a href="https://wa.me/5541996501100"> <img src="img/whatsapp.png" alt="icone do whatsapp" class="estudante-icone">
-</a>
-
-        </div>
+        <h3 class="estudante-titulo">Quem sou</h2>
+            <div class="estudante-div">
+                <img src="img/higor.jpeg" alt="foto do Higor" class="estudante-imagem">
+                <h3 class="estudante-nome"> Higor Henrique Lima Cunha </h3>
+                <a href="https://github.com/higorrr7/segundo-repositorio.git">   <img src="img/github.png" alt="icone do github" class="estudante-icone"></a>
+                <a href="https://instagram.com/ohigaozk"> <img src="img/instagram.png" alt="icone do instagram" class="estudante-icone"> </a>
+                <a href="https://wa.me/5541996501100"> <img src="img/whatsapp.png" alt="icone do whatsapp" class="estudante-icone"> </a>
+            </div>
     </section>
 
-<footer class="rodape">
-    <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
-</footer>
-
-
-  
-</body>
+    <footer class="rodape">
+        <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
+    </footer> class="rodape">
+   
+<body>
 
 </html>
