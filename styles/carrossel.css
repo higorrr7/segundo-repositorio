@@ -1,4 +1,4 @@
-.carrossel__titulo{
+.carrossel__titulo {
      color: var(--cor-principal);
      background-color: var(--cor-secundaria);
      text-align: center ;
@@ -43,7 +43,7 @@
 }
 
 }
-@media screen and (min-width; 1728) {
+@media screen and (min-width: 1728) {
      .carrossel_container {
           display: flex;
           margin: 0 20vw 3em 20vw;
