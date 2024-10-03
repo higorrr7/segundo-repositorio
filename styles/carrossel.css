@@ -59,6 +59,10 @@
 
 }
 
+.descricao__imagem {
+     width: 300px;
+}
+
 .descricao__texto{
      font-size: 14px;
 
