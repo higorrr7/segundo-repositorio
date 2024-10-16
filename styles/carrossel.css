@@ -77,6 +77,7 @@
 
 }
 .botoes__iten{
+     list-style-type:none;
      margin: 0 0.5em;
 }
 
