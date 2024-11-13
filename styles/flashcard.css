@@ -1,5 +1,5 @@
 #flashcard {
-    background-color: blue;
+    background-color: var(--cor-secundaria);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
