@@ -7,7 +7,7 @@ criaCartao(
 criaCartao (
   'Visão',
   'Saiba qual é a visão de nossa empresa!',
-  'Queroque minha empresa chegue em um nivel bom,de ter varias barbearias em lugares diferentes,com numero de clientes bons.'
+  'Quero que minha empresa chegue em um nivel bom,de ter varias barbearias em lugares diferentes,com numero de clientes bons.'
 )
 
 criaCartao(
